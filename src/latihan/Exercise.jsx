@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import PostCard from './PostCard';
-import { getPosts } from './Services';
+import { getPosts } from '../Services';
 
 function Exercise() {
   const [posts, setPosts] = useState([]);
